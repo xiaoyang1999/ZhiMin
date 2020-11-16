@@ -6,7 +6,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/zm-service-user/pom.xml" />
         <option value="$PROJECT_DIR$/zm-stedent-db/pom.xml" />
       </list>
     </option>

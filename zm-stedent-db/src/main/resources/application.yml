@@ -1,7 +1,27 @@
 server:
   port: ${SERVER_PORT:8090}
+
 spring:
+  profiles:
+    active: dev
   datasource:
+    druid:
+      stat-view-servlet:
+        enabled: true
+        loginUsername: admin
+        loginPassword: 123456
     dynamic:
       primary: master
+      druid:
+        filters: stat,wall # 注意这个值和druid原生不一致，默认启动了stat,wall
+        initial-size: 8
+        keep-alive: true
+        min-idle: 8
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        validation-query: SELECT 1
+        time-between-eviction-runs-millis: 5000
 
+mybatis-plus:
+  mapper-locations: classpath:mapping/*.xml

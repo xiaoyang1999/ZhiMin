@@ -7,6 +7,5 @@
     <artifactId>ZhiMin</artifactId>
 
     <modules>
-        <module>zm-service-user</module>
     </modules>
 </project>
