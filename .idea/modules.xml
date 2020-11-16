@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ZhiMin.iml" filepath="$PROJECT_DIR$/.idea/ZhiMin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zm-service-user/zm-service-user.iml" filepath="$PROJECT_DIR$/zm-service-user/zm-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zm-stedent-db/zm-stedent-db.iml" filepath="$PROJECT_DIR$/zm-stedent-db/zm-stedent-db.iml" />
+    </modules>
+  </component>
+</project>
