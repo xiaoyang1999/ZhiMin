@@ -13,7 +13,7 @@ spring:
     dynamic:
       primary: master
       druid:
-        filters: stat,wall # 注意这个值和druid原生不一致，默认启动了stat,wall
+        filters: stat,wall 
         initial-size: 8
         keep-alive: true
         min-idle: 8
