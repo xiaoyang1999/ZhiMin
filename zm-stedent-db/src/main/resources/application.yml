@@ -13,7 +13,7 @@ spring:
     dynamic:
       primary: master
       druid:
-        filters: stat,wall 
+        filters: stat,wall
         initial-size: 8
         keep-alive: true
         min-idle: 8

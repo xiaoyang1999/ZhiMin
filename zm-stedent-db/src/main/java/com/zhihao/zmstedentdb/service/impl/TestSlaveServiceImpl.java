@@ -23,15 +23,11 @@ import java.util.List;
 @Service
 public class TestSlaveServiceImpl extends ServiceImpl<TestSlaveMapper, TestSlave> implements ITestSlaveService {
 
-    @Autowired
-    private TestSlaveMapper testSlaveMapper;
-
     @Override
     @DS("slave_1")
     public List<TestSlave> selectAll() {
-        return testSlaveMapper.findAll();
+        return baseMapper.findAll();
     }
-
 
     @Override
     public TestSlave saveOne(String name) {

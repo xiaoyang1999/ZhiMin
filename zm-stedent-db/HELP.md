@@ -6,4 +6,5 @@
 * [Mybatis-Plus Github](https://github.com/baomidou/mybatis-plus)
 * [dynamic-datasource Github](https://github.com/baomidou/dynamic-datasource-spring-boot-starter)
 * [Druid Github](https://github.com/alibaba/druid)
+* [ShardingSphere Github](https://github.com/apache/shardingsphere)
 
